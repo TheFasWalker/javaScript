@@ -2,10 +2,10 @@ const goods = [
   {artucule:1, title: 'Shirt', price: 150 },
   {artucule:2, title: 'Socks', price: 50 },
   {artucule:3, title: 'Jacket', price: 350 },
-  {artucule:4, title: 'Shoes',price: 350 },
+  {artucule:4,  },
 ];
 
-const renderGoodsItem = (title, price="нет в наличии",artucule) => 
+const renderGoodsItem = (title="неизвестный товар", price="нет в наличии",artucule) => 
   `<div class="goods-item">
   <div class="goods__photo">
     место для фото товара
